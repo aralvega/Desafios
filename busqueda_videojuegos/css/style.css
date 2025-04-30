@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 24px;
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  #search-form {
+    margin-bottom: 16px;
+  }
+  
+  /* Tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  table th {
+    background-color: #2979ff;
+    color: #fff;
+  }
+  
+  /* Formulario */
+  .search-controls {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .search-controls label {
+    margin-right: 4px;
+  }
+  .search-controls input[type="text"],
+  .search-controls input[type="number"],
+  .search-controls input[type="date"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .search-controls button {
+    padding: 8px 12px;
+    background-color: #2979ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .search-controls button:hover {
+    background-color: #1e5ac1;
+  }
+  .search-controls input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 8px;
+  }

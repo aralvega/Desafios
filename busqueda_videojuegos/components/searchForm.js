@@ -4,7 +4,7 @@ import { inicializarTabla } from "./videojuegoTabla.js";
 export const inicializarBuscador = (data)=>{
     const container = document.getElementById('search-form');
     container.innerHTML = `
-        <div>
+        <div class="search-controls">
             <label><input type='radio' name='filtro' value='id'>ID</label>
             <label><input type='radio' name='filtro' value='nombre'>Nombre</label>
             <label><input type='radio' name='filtro' value='fecha'>Fecha</label>
