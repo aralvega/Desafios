@@ -1,0 +1,1 @@
+export const initialStudents = ["Ana","Luis","Carlos"];

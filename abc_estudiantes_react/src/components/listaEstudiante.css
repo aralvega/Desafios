@@ -1,0 +1,28 @@
+.container {
+    padding: 1rem;
+    max-width: 400px;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 95%;
+  }
+  
+  button {
+    margin-left: 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0.3rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
