@@ -1,0 +1,3 @@
+ul { list-style: none; padding: 0; }
+li { margin: 4px 0; }
+button.del { margin-left: 10px; color: red; cursor: pointer;}
